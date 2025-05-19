@@ -2,7 +2,7 @@
 
 ## Overview
 
-This PowerShell script connects to a specified Azure subscription and retrieves details about App Service Plans and Function Apps. It then exports this information into two separate CSV files for easy access and analysis.
+This PowerShell script, **`listappservice.ps1`**, connects to a specified Azure subscription and retrieves details about App Service Plans and Function Apps. It then exports this information into two separate CSV files for easy access and analysis.
 
 ## What the PowerShell Script Does
 
@@ -41,10 +41,6 @@ After running the script, two CSV files will be generated in the current directo
    - `HostNames`: The host names associated with the Function App.
    - `AppServicePlan`: The name of the App Service Plan to which the Function App is linked.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Author
 
-[Your Name]
+Yash Singh
